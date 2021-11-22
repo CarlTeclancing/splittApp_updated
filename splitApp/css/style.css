@@ -1,0 +1,92 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:cursive;
+}
+.container{
+    width: 350px;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid rgba(0, 0, 0, 0.493);
+    border-radius: 20px;
+    box-shadow: 5px 0px 5px 5px rgba(0, 0, 0, 0.26);
+}
+
+.container div{
+    margin: 10px;
+
+}
+.headder{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    height: 60%;
+    width: 100%;
+}
+.inputArea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    width: 100%;
+}
+input{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    color: white;
+    background: rgb(255, 166, 0);
+    border-radius: 10px;
+    font-family:cursive;
+    box-shadow: 2px 0px 2px 2px rgba(0, 0, 0, 0.26);
+}
+input:active{
+    margin: 10px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    background: wheat;
+    border-radius: 10px;
+}
+h1{
+    color: rgb(174, 0, 255);
+    text-transform:uppercase;
+}
+p{
+    margin-left: 10px;
+    color: #7700ff;
+    text-align: center;
+}
+button{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    font-family:cursive;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.26);
+}
+button:hover{
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    color: white;
+    background-color: rgb(25, 153, 153);
+    border: none;
+    border-radius: 10px;
+    transition: 1s;
+    font-family:cursive;
+}
+h3{
+    color: violet;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
